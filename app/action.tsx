@@ -1,5 +1,3 @@
-"use server";
-
 import AnimeCard, { AnimeProp } from "@/components/AnimeCard";
 
 const MAX_LIMIT = 8;
