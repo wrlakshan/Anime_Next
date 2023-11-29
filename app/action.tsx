@@ -1,4 +1,6 @@
 "use server";
+const fetch = require("node-fetch");
+const { Headers } = fetch;
 
 import AnimeCard, { AnimeProp } from "@/components/AnimeCard";
 
