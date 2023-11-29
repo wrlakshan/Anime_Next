@@ -1,7 +1,3 @@
-"use server";
-const fetch = require("node-fetch");
-const { Headers } = fetch;
-
 import AnimeCard, { AnimeProp } from "@/components/AnimeCard";
 
 const MAX_LIMIT = 8;
